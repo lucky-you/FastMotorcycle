@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TitleView">
+        <attr name="mTitle" format="string" />
+        <attr name="mTitleSize" format="dimension" />
+        <attr name="mTitleColor" format="color" />
+        <attr name="mBackgroundColor" format="reference|color" />
+        <attr name="mLeftSrc" format="reference" />
+        <attr name="mLeftVisible" format="boolean" />
+        <attr name="mLeftText" format="string" />
+        <attr name="mLeftTextColor" format="color" />
+        <attr name="mLeftTextMarginLeft" format="dimension" />
+        <attr name="mRightText" format="string" />
+        <attr name="mRightTextColor" format="color" />
+        <attr name="mRightImage" format="reference" />
+    </declare-styleable>
+
+
+    <attr name="MiniLoadingStyle" format="reference" />
+    <declare-styleable name="MiniLoadingView">
+        <!--loading控件的大小，默认32dp-->
+        <attr name="mlv_loading_view_size" format="dimension" />
+        <!--loading控件的颜色，默认白色-->
+        <attr name="mlv_loading_view_color" format="color" />
+    </declare-styleable>
+
+    <!-- 垂直方向的虚线 -->
+    <declare-styleable name="DividerLineView">
+        <!-- 虚线颜色 -->
+        <attr name="divider_line_color" format="color" />
+        <!-- 虚线宽度 -->
+        <attr name="dashThickness" format="dimension" />
+        <!-- 虚线dash宽度 -->
+        <attr name="dashLength" format="dimension" />
+        <!-- 虚线dash间隔 -->
+        <attr name="dashGap" format="dimension" />
+        <!-- 虚线朝向 -->
+        <attr name="divider_orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

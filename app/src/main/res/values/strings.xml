@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">motorbike</string>
+
+    <string name="Loading">加载中...</string>
+    <string name="net_bad">您的网络似乎不给力，请稍后再试</string>
+
+</resources>
